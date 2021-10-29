@@ -11,6 +11,7 @@ body {
     max-width: 100vw;
 }
 
+/* navigation bar */
 nav .nav-items {
     display: flex;
     padding: 20px 50px 20px 50px;
