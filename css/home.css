@@ -1,5 +1,6 @@
 :root {
-    --primary-color: rgb(131, 16, 16);
+    --primary-color: #7510F7;
+    --text-header-color: #141c3a;
 }
 
 * {
@@ -7,12 +8,18 @@
 }
 
 body {
-    min-height: 100vh;
     max-width: 100vw;
 }
 
+.container {
+    height: 100vh;
+}
+
+
+
 /* navigation bar */
 nav .nav-items {
+    height: 10vh;
     display: flex;
     padding: 20px 50px 20px 50px;
     justify-content: space-between;
@@ -32,8 +39,60 @@ nav .nav-items {
 }
 
 .nav-items button.start-project {
-    padding: 10px;
+    padding: 9px 15px 9px 15px;
     border-radius: 20px;
     border: 2px solid var(--primary-color);
     background: transparent;
+    color: var(--primary-color);
+    font-size: 14px
+}
+
+.nav-items button.start-project:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.nav-items .nav-icon {
+    display: none;
+}
+
+
+
+/* jumbotron  */
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.jumbotron h1 {
+    text-align: center;
+    font-size: 40px;
+    color: var(--text-header-color);
+}
+
+.jumbotron h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.jumbotron div {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+/* about me */
+.about-me {
+    text-align: center;
+    background-color: var(--primary-color);
+    height: 50vh;
+    padding: 30px;
+    padding-top: 60px;
+    color: white;
 }
