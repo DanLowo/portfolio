@@ -73,9 +73,22 @@
     }
 }
 
+
 /* My recent work query */
-@media screen {
+@media screen and (max-width: 550px) {
     .recent-works {
         margin-top: -15vh;
+        margin-bottom: 40px;
+    }
+}
+
+
+/* Start project / contact query  */
+@media screen and (max-width: 550px) {
+    .start-project {
+        top: 24vh;
+        padding: 50px;
+        flex-direction: column;
+        gap: 40px;
     }
 }
