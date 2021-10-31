@@ -174,7 +174,7 @@ nav .nav-items {
 
 /* recent works */
 .recent-works {
-    margin-top: -30vh;
+    margin-top: -25vh;
     padding: 30px 20px;
     margin-bottom: 100px;
     text-align: center;
@@ -191,16 +191,16 @@ nav .nav-items {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .work-card {
-    border: 1px solid gray;
+    border: 1px solid lightgray;
     padding: 15px;
     margin-top: 20px;
     width: 350px;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .work-card.active {
@@ -270,6 +270,35 @@ nav .nav-items {
 
 /* footer */
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 100px;
+    text-align: center;
     height: 90vh;
+    padding: 20px;
     background-color: var(--primary-color);
+}
+
+footer h2 {
+    color: lightgray;
+    font-weight: normal;
+}
+
+.social-media {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.social-media .icon {
+    border: 1px solid #d820a4;
+    padding: 15px 20px;
+    border-radius: 50%;
+}
+
+footer h4 {
+    color: white;
+    font-weight: normal;
 }
