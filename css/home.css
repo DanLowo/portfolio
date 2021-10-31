@@ -89,10 +89,20 @@ nav .nav-items {
 
 /* about me */
 .about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     background-color: var(--primary-color);
-    height: 50vh;
-    padding: 30px;
-    padding-top: 60px;
+    min-height: 50vh;
+    padding: 20px;
+    padding-top: 5%;
     color: white;
+}
+
+.about-me p {
+    margin-top: 30px;
+    width: 50%;
+    font-size: 20px;
+    line-height: 30px;
 }
