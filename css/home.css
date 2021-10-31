@@ -171,3 +171,66 @@ nav .nav-items {
     position: relative;
     right: 22px;
 }
+
+
+
+/* recent works */
+.recent-works {
+    margin-top: -30vh;
+    padding: 30px 20px;
+    margin-bottom: 190px;
+    text-align: center;
+    color: var(--text-header-color);
+}
+
+.recent-works h3 {
+    font-weight: normal;
+    color: var(--text-header-color);
+    margin-top: 10px;
+}
+
+.works {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.work-card {
+    border: 1px solid gray;
+    padding: 15px;
+    margin-top: 20px;
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.work-card.active {
+    display: flex;
+    /* padding-left: 80px;
+    padding-right: 80px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--text-header-color);
+}
+
+.work-card.active h3 {
+    width: 80%;
+    color: white;
+    font-size: 22px;
+    margin-bottom: 40px;
+}
+
+.work-card.active button {
+    padding: 9px 15px 9px 15px;
+    border-radius: 20px;
+    border: 2px solid var(--primary-color);
+    background: transparent;
+    color: white;
+    font-size: 14px
+}
+
+.work-card.active button:hover {
+    background-color: var(--primary-color);
+}

@@ -72,3 +72,10 @@
         border-bottom-left-radius: 10px;
     }
 }
+
+/* My recent work query */
+@media screen {
+    .recent-works {
+        margin-top: -15vh;
+    }
+}
