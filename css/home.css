@@ -94,7 +94,7 @@ nav .nav-items {
     align-items: center;
     text-align: center;
     background-color: var(--primary-color);
-    min-height: 50vh;
+    height: 95vh;
     padding: 20px;
     padding-top: 5%;
     color: white;
@@ -105,4 +105,66 @@ nav .nav-items {
     width: 50%;
     font-size: 20px;
     line-height: 30px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 35vh;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.card {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 180px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.card .card-title {
+    color: var(--text-header-color);
+    font-size: 27px;
+}
+
+.card .card-intro {
+    font-size: 19px;
+    color: var(--text-header-color);
+}
+
+.card .card-subtitle {
+    color: var(--primary-color);
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+.card .list {
+    color: var(--text-header-color);
+    position: relative;
+    bottom: 17px;
+    line-height: 22px;
+}
+
+.first-card {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-right: 0;
+}
+
+.last-card {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.list ul {
+    list-style-type: none;
+    list-style: none;
+    position: relative;
+    right: 22px;
 }
