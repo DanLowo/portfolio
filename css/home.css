@@ -24,6 +24,7 @@ body {
     font-size: 14px
 }
 
+
 /* navigation bar */
 nav .nav-items {
     height: 10vh;
@@ -199,7 +200,7 @@ nav .nav-items {
     padding: 15px;
     margin-top: 20px;
     width: 350px;
-    height: 200px;
+    height: 250px;
     border-radius: 5px;
 }
 
@@ -282,7 +283,7 @@ footer {
 }
 
 footer h2 {
-    color: lightgray;
+    color: white;
     font-weight: normal;
 }
 
