@@ -244,10 +244,14 @@ nav .nav-items {
     width: 350px;
     height: 250px;
     border-radius: 5px;
+    color: #e7e1e1;
+    background: linear-gradient(170deg, var(--primary-color),  var(--text-header-color));
 }
 
 .work-card button {
     padding: 11px 30px;
+    color: #e7e1e1;
+    border-color: #e7e1e1;
 }
 
 .work-card div {
@@ -261,11 +265,13 @@ nav .nav-items {
     justify-content: space-evenly;
     align-items: center;
     color: white;
+    background: transparent;
     background-color: var(--text-header-color);
 }
 
 .work-card.active button {
     color: white;
+    border-color: var(--primary-color);
 }
 
 .work-card.active button:hover {
