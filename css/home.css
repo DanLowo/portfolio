@@ -245,7 +245,8 @@ nav .nav-items {
     height: 250px;
     border-radius: 5px;
     color: #e7e1e1;
-    background: linear-gradient(170deg, var(--primary-color),  var(--text-header-color));
+    background: var(--text-header-color);
+    /* background: linear-gradient(170deg, var(--primary-color),  var(--text-header-color)); */
 }
 
 .work-card button {
@@ -267,6 +268,7 @@ nav .nav-items {
     color: white;
     background: transparent;
     background-color: var(--text-header-color);
+    box-shadow: 2px 5px 5px 2px grey;
 }
 
 .work-card.active button {
