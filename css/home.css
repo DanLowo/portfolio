@@ -226,6 +226,55 @@ nav .nav-items {
     margin-top: 10px;
 }
 
+.recent-works .work {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+/* 
+.recent-works .work.reverse-row {
+    flex-direction: row-reverse;
+    margin-left: 30px;
+} */
+
+.recent-works .work img {
+    border-radius: 5px;
+    width: 90%;
+    max-height: 300px;
+}
+
+.recent-works .work .content {
+    display: flex;
+    flex-direction: column;
+}
+
+.recent-works .work h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.recent-works .work p {
+    margin-top: 20px;
+    width: 80%;
+    line-height: 25px;
+}
+
+.recent-works .call-to-action {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.recent-works button:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+
+/* 
 .works {
     display: flex;
     flex-wrap: wrap;
@@ -246,7 +295,6 @@ nav .nav-items {
     border-radius: 5px;
     color: #e7e1e1;
     background: var(--text-header-color);
-    /* background: linear-gradient(170deg, var(--primary-color),  var(--text-header-color)); */
 }
 
 .work-card button {
@@ -279,7 +327,7 @@ nav .nav-items {
 .work-card.active button:hover {
     background-color: var(--primary-color);
 }
-
+ */
 
 
 
