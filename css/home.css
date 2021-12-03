@@ -267,6 +267,10 @@ nav .nav-items {
     gap: 20px;
 }
 
+.recent-works button {
+    border-radius: 5px;
+}
+
 .recent-works button:hover {
     background-color: var(--primary-color);
     color: white;
